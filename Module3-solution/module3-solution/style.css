@@ -5,4 +5,63 @@ h1{
 .food{
     text-align: center;
     color: black;
+    font-weight: bold;
+}
+.selections{
+    color: white;
+    background-color: red;
+    border: 10px gray;
+}
+.navbar-brand{
+    color: white;
+    background-color: greenyellow;
+    border: 1em solid;
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/*width*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+/*track*/
+::-webkit-scrollbar{
+    background: #f1f1f1;
+}
+/*handle*/
+::-webkit-scrollbar-thumb{
+    background: #888;
+}
+/*handle on hover*/
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+/**** Large devices only***/
+@media(min-width: 1200px){
+    .container{
+        background: rebeccapurple;
+        height: 675px;
+        box-shadow: 50px;
+        border: 2px solid #3f0c1f;
+    }
+}
+/**** medium devices only***/
+@media(min-width: 992px){
+    .container{
+        background: rebeccapurple;
+        height: 100px;
+        box-shadow: 50px;
+        width: 100px;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+/**** small devices only***/
+@media(min-width: 768px){
+    .container{
+        background: rebeccapurple;
+        height: 432px;
+        box-shadow: 50px;
+        border: 2px solid #3f0c1f;
+    }
 }
